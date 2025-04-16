@@ -2,7 +2,7 @@
 
 Take a look at the file labeled `data/phase0.txt`. Why might we have missing values or values that state "NO DATA" in this dataset? While we are currently ignoring these values, what might be the risk of filtering these values out?
 
-[Answer here]
+loss of data, cause bias, ingnore important information
 
 ## Question 2
 
