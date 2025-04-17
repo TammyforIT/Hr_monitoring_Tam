@@ -30,7 +30,7 @@ def run(filename: str) -> None:
     with open(filename, 'r') as file:
         for line in file:
          heart_rate = line.strip().split()
-         data.append(list(heart_rate))
+         data.append(run(heart_rate))
         if ValueError:
          print("skip{line.strip()}")
         if FileNotFoundError:
@@ -65,9 +65,10 @@ def run(filename: str) -> None:
 
 
 if __name__ == "__main__":
-    print(list("data/phase0.txt"))
+    print(run("data/phase0.txt"))
 if __name__:
-   list = __name__
+   run = __name__
    print (f"average heart rate,{average}")
    print (f"maximum heart rate",{maximum})
    print (f"Standard deviation heart rate",{standard_deviation})
+  
