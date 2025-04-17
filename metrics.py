@@ -1,4 +1,7 @@
 def average(data: list) -> float:
+    if not data:
+        raise ValueError
+    return average
     """
     Calculate average value of the list.
 
@@ -12,13 +15,21 @@ def average(data: list) -> float:
 
 
 def maximum(data: list) -> float:
-    """
+    if not data:
+        raise ValueError
+    return max
+    """sn
     INSERT DOCSTRING HERE
     """
     pass
 
 
 def variance(data: list) -> float:
+    if not data:
+        raise ValueError
+    n = len
+    mean = sum(data)
+    return sum
     """
     INSERT DOCSTRING HERE
     (calculate population variance)
@@ -27,8 +38,12 @@ def variance(data: list) -> float:
 
 
 def standard_deviation(data: list) -> float:
+    if not data:
+        raise ValueError
+    return variance(data)
     """
     INSERT DOCSTRING HERE
     (calculate population standard deviation)
     """
     pass
+
