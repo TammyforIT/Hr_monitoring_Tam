@@ -18,7 +18,7 @@ def maximum(data: list) -> float:
     if not data:
         raise ValueError
     return max
-    """
+    """sn
     INSERT DOCSTRING HERE
     """
     pass
