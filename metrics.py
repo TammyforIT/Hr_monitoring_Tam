@@ -1,6 +1,6 @@
 def average(data: list) -> float:
     if not data:
-        raise ValueError
+        raise ValueError("list cannot be empty")
     return sum(data)/ len(data) #size data
     """
     Calculate average value of the list.
