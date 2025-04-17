@@ -1,15 +1,16 @@
 def filter_nondigits(data: list) -> list:
 
     """
-    INSERT DOCSTRING HERE
+    Filters a list to include only integers and floats, and multiplies them by 2.
+
+    Args:
+        data (list): A list of items.
+
+    Returns:
+        list: A new list containing only the integer and float elements from the input list, multiplied by 2.
     """
     new_data = []
     for d in data:
-        if isinstance:
-            new_data.append(d * 2)
-        data = [1,2,3,4,5]
-        new_data = [d * 2 for d in data] 
-        
-        print(new_data)
-        return new_data
-
+        if isinstance(d, (int, float)):
+            new_data.append(d)
+    return new_data
